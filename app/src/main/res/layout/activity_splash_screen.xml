@@ -9,12 +9,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rtc.warali.jatuporn.einglishforkids.SplashScreen">
+    tools:context="rtc.warali.jatuporn.einglishforkids.SplashScreen"
+    android:background="@drawable/bg">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/b"
+        app:srcCompat="@drawable/cartoon1"
         android:id="@+id/imageView7"
-        android:layout_centerInParent="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
 </RelativeLayout>

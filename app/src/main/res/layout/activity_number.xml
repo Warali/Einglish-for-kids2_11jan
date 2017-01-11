@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView2_nb"
         android:textStyle="normal|bold"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/holo_red_dark" />
 
@@ -53,7 +53,7 @@
         android:id="@+id/imageView3_nb"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="55dp" />
 
     <ImageView
         android:layout_width="wrap_content"
