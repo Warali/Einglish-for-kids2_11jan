@@ -13,8 +13,8 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-        MediaPlayer mediaPlayer = MediaPlayer.create(SplashScreen.this, R.raw.intro_tata);
-        mediaPlayer.start();
+        //MediaPlayer mediaPlayer = MediaPlayer.create(SplashScreen.this, R.raw.intro_tata);
+        //mediaPlayer.start();
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -23,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(new Intent(SplashScreen.this, MainActivity.class));
                 finish();
             }
-        }, 9000);
+        }, 4000);
 
     }
 }
