@@ -8,12 +8,12 @@ public class MyConstant {
 
     //Explicit
     private String[] qurstionStrings = new String[]{
-            "Ant","Bat","Cat","Dog","Egg",
-            "Fox","Goat","Hen","Ice","Jam",
-            "Koala", "Lion","Monkey","Nurse",
-            "Owl","Panda","Quail","Rabbit","Snake",
-            "Tiger","Unicorn", "Violin","Whale",
-            "Xylophone","Yak","Zeber"};
+            "Ant", "Bat", "Cat", "Dog", "Egg",
+            "Fox", "Goat", "Hen", "Ice", "Jam",
+            "Koala", "Lion", "Monkey", "Nurse",
+            "Owl", "Panda", "Quail", "Rabbit", "Snake",
+            "Tiger", "Unicorn", "Violin", "Whale",
+            "Xylophone", "Yak", "Zeber"};
 
     private String[] numberQuestionStrings = new String[]{
             "ONE", "TWO", "THREE", "FOUR", "FIVE",
@@ -22,11 +22,12 @@ public class MyConstant {
             "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN", "TWENTY"};
 
 
-    private int[] trueAnserInts = new int[]{2,1,3,1,2,
-                                            1,1,1,2,3,
-                                            1,3,1,2,1,
-                                            2,1,1,2,1,
-                                            3,1,1,3,1,3};
+    private int[] trueAnserInts = new int[]{2, 1, 3, 1, 2,
+            1, 1, 1, 2, 3,
+            1, 3, 1, 2, 1,
+            2, 1, 1, 2, 1,
+            3, 1, 1, 3, 1, 3};
+
 
 
     private int[][] numberChoiceInts = new int[][]{
@@ -51,8 +52,6 @@ public class MyConstant {
             {R.drawable.no191, R.drawable.no193, R.drawable.no192},
             {R.drawable.no201, R.drawable.no202, R.drawable.no203}
             };
-
-
 
 
     private int[][] choiceInts = new int[][]{
